@@ -15,7 +15,6 @@ titles = [
     "Table 10",
 ]
 
-
 def search(query):
     query = query.strip()
 
@@ -35,7 +34,6 @@ def search(query):
         print(f"Search URL: {url}")
         return False
 
-
 def search_all(queries):
     searched = 0
 
@@ -45,7 +43,6 @@ def search_all(queries):
                 searched += 1
 
     return searched
-
 
 def main():
     queries = []
@@ -81,7 +78,6 @@ def main():
         input("\nPress Enter to exit...")
     except (KeyboardInterrupt, EOFError):
         pass
-
 
 if __name__ == "__main__":
     main()

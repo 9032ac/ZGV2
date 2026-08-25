@@ -9,11 +9,9 @@ def search(query):
             "https://www.google.com/search?q=" + quote_plus(query)
         )
 
-
 def search_all(queries):
     for query in queries:
         search(query)
-
 
 titles = [
     "Table 1",

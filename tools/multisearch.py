@@ -64,8 +64,6 @@ for title in titles:
         lambda event, e=entry: search(e)
     )
 
-
-# GO = search every filled box in its own browser tab
 go_button = tk.Button(
     root,
     text="GO",
