@@ -11,7 +11,6 @@ def search(entry):
             "https://www.google.com/search?q=" + quote_plus(query)
         )
 
-
 def search_all():
     for entry in entries:
         query = entry.get().strip()
@@ -20,7 +19,6 @@ def search_all():
             webbrowser.open_new_tab(
                 "https://www.google.com/search?q=" + quote_plus(query)
             )
-
 
 root = tk.Tk()
 root.title("MultiSearch")
