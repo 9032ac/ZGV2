@@ -2,6 +2,8 @@ import sys
 import webbrowser
 from urllib.parse import quote_plus
 
+print("MultiSearch-tool, python")
+
 titles = [
     "Table 1",
     "Table 2",

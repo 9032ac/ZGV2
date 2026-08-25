@@ -2,6 +2,8 @@ import tkinter as tk
 import webbrowser
 from urllib.parse import quote_plus
 
+print("MultiSearch-tool, python")
+
 def search(entry):
     query = entry.get().strip()
     if query:
